@@ -335,6 +335,21 @@ p {
   font-weight: 700;
 }
 
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 24px;
+}
+
+.skill-groups h3 {
+  margin-bottom: 12px;
+}
+
+.skill-groups .skill-list {
+  margin-top: 0;
+}
+
 .timeline-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -655,6 +670,10 @@ p {
   }
 
   .quick-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-groups {
     grid-template-columns: 1fr;
   }
 
