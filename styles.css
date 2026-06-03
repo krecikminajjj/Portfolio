@@ -194,11 +194,15 @@ p {
 }
 
 .profile-panel {
-  background: var(--surface);
-  border: 1px solid var(--line);
+  width: 100%;
+  max-width: 300px;
+  display: grid;
+  gap: 14px;
+  justify-self: end;
+  background: transparent;
+  border: 0;
   border-radius: 8px;
-  box-shadow: var(--shadow);
-  overflow: hidden;
+  overflow: visible;
 }
 
 .profile-panel img {
@@ -206,17 +210,31 @@ p {
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center top;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .quick-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
   margin: 0;
-  padding: 22px;
+  padding: 0;
 }
 
 .quick-facts div + div {
-  margin-top: 18px;
-  padding-top: 18px;
-  border-top: 1px solid var(--line);
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.quick-facts div {
+  min-height: 94px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
 }
 
 .quick-facts dt {
@@ -230,6 +248,55 @@ p {
   margin: 4px 0 0;
   color: var(--ink);
   font-weight: 700;
+}
+
+.profile-facts {
+  display: block;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.profile-facts div {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.profile-facts div + div {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+@media (min-width: 861px) {
+  .about-panel {
+    position: relative;
+  }
+
+  .about-panel > .section-grid {
+    display: block;
+    max-width: calc(100% - 340px);
+  }
+
+  .about-panel .intro-copy {
+    max-width: 720px;
+  }
+
+  .about-panel .profile-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: min(300px, 28vw);
+  }
+
+  .about-panel > .content-band {
+    max-width: calc(100% - 340px);
+  }
 }
 
 .content-band {
@@ -314,6 +381,13 @@ p {
 
 .section-heading {
   margin-bottom: 28px;
+}
+
+.section-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
 }
 
 .project-grid {
@@ -542,6 +616,15 @@ p {
   .project-grid,
   .project-hero,
   .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-panel {
+    max-width: 320px;
+    justify-self: center;
+  }
+
+  .quick-facts {
     grid-template-columns: 1fr;
   }
 
