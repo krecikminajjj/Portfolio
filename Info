@@ -3,7 +3,7 @@ Patrik Potančok, Bc.
 📞 +421 944 227 366 | 📧 pa3ko2021@gmail.com
 🔗 linkedin.com/in/patrik-potančok
 🔗krecikminajj.artstation.com
-🔗krecikminajjj (Patrik Potančok)
+🔗[krecikminajjj (Patrik Potančok)](https://github.com/krecikminajjj)
 
 Objective
 IT student with a specialization in Game Development at Masaryk University. Previously, I earned a bachelor's in Information Technology from VUT FIT, where I gained experience in programming, mathematics, electronics, and software systems. I decided for a Game Development major for my passion for games. Eager to further develop my technical skills, collaborate on creative projects, and gain industry experience.
@@ -24,7 +24,7 @@ Tabletop game development: Participated in the design and play-testing of a tabl
 3D modelling: Portfolio of 3D blender projects at krecikminajj.artstation.com
 
 Work Experience
-Driver, Motor-Car Banská Bystrica, Slovakia (Aug 2024 – Present)
+Part-Time Driver, Motor-Car Banská Bystrica, Slovakia (Aug 2024)
 Delivered vehicles to customers; strengthened skills in customer relations and time management.
 Volunteer, Game Access Conference, Brno, Czech Republic (June 2025)
 Supported event logistics; strengthened skills in teamwork and technical skills.
@@ -35,3 +35,26 @@ Build simple games in TypeScript.
 
 Languages
 Slovak (Native), Czech (Fluent), English (CAE C2).
+
+Become a warehouse cat-ployee and throw some boxes at your colleagues! Each level offers different boxes, powerups and game rules, explosions included. MEOW MAYHEM is a party game ideal for 2-4 cats (or humans).
+
+Produced by LOOPHOLE GAMES: Niko Mlynarčík, Krištof Teplan, Patrik Potančok
+
+Meow Mayhem video https://youtu.be/KKST1MfuvSg?si=jkYEHccsh4a2Cb87
+
+Board game:
+Lumberjack Escape is board game 1v1 where players try to reach other side of map by building paths and using action cards. There is a strong emphasis on sabotaging the opponent.
+
+Full print and play kit can be downloaded here: https://github.com/KristofTeplan/Lumberjack-Escape
+
+Game was designed in colaboration with Krištof Teplan and ​Ines del Transito Vaquero Ramirez
+
+I worked on design and rules and playtesting.
+
+Diploma thesis:
+Abstract
+This thesis deals with performance optimisation in standalone virtual reality applications and uses the Villa Stiassni VR project as a case study. The work focuses on the specific constraints of mobile VR hardware, where stable frame time, limited memory, and predictable rendering cost are essential for user comfort and application usability. The theoretical part introduces the main areas relevant to VR optimisation, including target hardware, rendering constraints, asset preparation, lighting, physics, interaction systems, and common Unity optimisation techniques. The practical part applies selected techniques to the Villa Stiassni project and evaluates their effect on Meta Quest hardware. The tested changes include occlusion culling, level-of-detail systems, baked lightmaps, Adaptive Probe Volumes, reflection probes, texture and material optimisation, and platform-specific project settings. The results show that occlusion culling produced the clearest performance improvement by reducing unnecessary rendering work and improving frame-time stability in the indoor scene. Level-of-detail systems were less significant in the measured traversal but remain useful for scalability. Baked lightmaps provided a balance between runtime performance and memory usage, while Adaptive Probe Volumes helped with lighting consistency on lower-detail geometry. The textured variants showed that richer visual presentation can remain stable when supported by a suitable optimisation workflow. The thesis concludes that standalone VR optimisation is not a single isolated step, but a continuous process of balancing visibility, geometry, lighting, materials, memory usage, and visual quality. The case study demonstrates that targeted optimisation can improve runtime stability and create performance headroom for future development of the Villa Stiassni application.
+
+Animation:
+A lowpoly animation of a car chase through a city, created using blender.
+

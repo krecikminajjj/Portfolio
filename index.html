@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfolio of Patrik Potančok, a game development student and technical artist focused on Unity, Blender, VR optimisation, and interactive projects."
+    >
+    <title>Patrik Potančok | Game Development Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#about" aria-label="Patrik Potančok home">
+          <span class="brand-mark">PP</span>
+          <span>
+            <strong>Patrik Potančok</strong>
+            <small>Game Development &amp; Visual Informatics</small>
+          </span>
+        </a>
+
+        <nav class="tabs" aria-label="Portfolio sections" role="tablist">
+          <button class="tab-button" id="tab-about" type="button" role="tab" aria-selected="true" aria-controls="about">
+            About me
+          </button>
+          <button class="tab-button" id="tab-projects" type="button" role="tab" aria-selected="false" aria-controls="projects">
+            Projects
+          </button>
+          <button class="tab-button" id="tab-contact" type="button" role="tab" aria-selected="false" aria-controls="contact">
+            Contact
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="tab-panel about-panel" id="about" role="tabpanel" aria-labelledby="tab-about">
+        <div class="section-grid">
+          <div class="intro-copy">
+            <h1>Hey, I’m Patrik Potančok</h1>
+            <p class="lead">
+            I’m an IT student with a specialization in Game Development at Masaryk University. 
+            Previously, I earned a bachelor's in Information Technology from VUT FIT, where 
+            I gained experience in programming, mathematics, electronics, and software systems. 
+            I decided for a Game Development major for my passion for games. Eager to further develop 
+            my technical skills, collaborate on creative projects, and gain industry experience.
+            </p>
+          </div>
+
+          <aside class="profile-panel" aria-label="Profile highlights">
+            <img
+              src="Pictures/Me/ja.jpg"
+              alt="Portrait photo of Patrik Potančok"
+            >
+            <dl class="quick-facts">
+              <div>
+                <dt>Current study</dt>
+                <dd>Master&apos;s in Visual Informatics, Game Development specialization</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Brno, Czech Republic</dd>
+              </div>
+              <div>
+                <dt>Languages</dt>
+                <dd>Slovak, Czech, English C2</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+
+        <section class="content-band">
+          <div class="band-heading">
+            <p class="eyebrow">Core skills</p>
+            <h2>Tools and languages I work with</h2>
+          </div>
+          <ul class="skill-list" aria-label="Technical and soft skills">
+            <li>Unity</li>
+            <li>Blender</li>
+            <li>3D modelling</li>
+            <li>Character design</li>
+            <li>Animation</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>PHP</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Git</li>
+            <li>Laravel</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+          </ul>
+        </section>
+
+        <section class="timeline-grid" aria-label="Education and experience">
+          <div>
+            <div class="band-heading">
+              <p class="eyebrow">Education</p>
+              <h2>Academic path</h2>
+            </div>
+            <ol class="timeline">
+              <li>
+                <span>Sep 2024 - Present</span>
+                <strong>Masaryk University, Brno</strong>
+                <p>Master&apos;s in Visual Informatics with a Game Development specialization.</p>
+              </li>
+              <li>
+                <span>Sep 2021 - Jun 2024</span>
+                <strong>Brno University of Technology, FIT</strong>
+                <p>Bachelor of Information Technology, focused on programming, mathematics, electronics, and software systems.</p>
+              </li>
+            </ol>
+          </div>
+
+          <div>
+            <div class="band-heading">
+              <p class="eyebrow">Experience</p>
+              <h2>Recent work</h2>
+            </div>
+            <ol class="timeline">
+              <li>
+                <span>Sep 2025 - Jan 2026</span>
+                <strong>Internship Game Developer, Inlogic Software</strong>
+                <p>Built simple games in TypeScript.</p>
+              </li>
+              <li>
+                <span>Jun 2025</span>
+                <strong>Volunteer, Game Access Conference</strong>
+                <p>Supported event logistics and strengthened teamwork in a game industry setting.</p>
+              </li>
+              <li>
+                <span>Jun 2023 - Aug 2024</span>
+                <strong>Service Technician, Servis Invo</strong>
+                <p>Delivered and assembled medical rehabilitation equipment.</p>
+              </li>
+            </ol>
+          </div>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="projects" role="tabpanel" aria-labelledby="tab-projects" hidden>
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h1>Projects</h1>
+          <p>
+            Games, animation, tabletop design, and VR optimisation work made through study, collaboration, and personal practice.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card" href="projects/meow-mayhem.html">
+            <img src="Pictures/MEOW_MAYHEM!/Storage_level.jpg" alt="Meow Mayhem warehouse level screenshot">
+            <span class="project-meta">Unity party game</span>
+            <h2>Meow Mayhem</h2>
+            <p>A 2-4 player party game about warehouse cats, boxes, powerups, changing rules, and explosions.</p>
+          </a>
+
+          <a class="project-card" href="projects/lumberjack-escape.html">
+            <img src="Pictures/LUMBERJACK/BoardFInal.jpg" alt="Lumberjack Escape board game map">
+            <span class="project-meta">Tabletop design</span>
+            <h2>Lumberjack Escape</h2>
+            <p>A 1v1 board game focused on path building, action cards, and sabotaging the opponent.</p>
+          </a>
+
+          <a class="project-card" href="projects/vr-optimisation-thesis.html">
+            <img src="Pictures/Thesis/709820661_998733769213218_6233051964832593437_n.jpg" alt="Villa Stiassni VR optimisation screenshot">
+            <span class="project-meta">VR optimisation thesis</span>
+            <h2>Villa Stiassni VR</h2>
+            <p>A diploma thesis case study on performance optimisation for standalone Meta Quest VR applications.</p>
+          </a>
+
+          <a class="project-card" href="projects/car-chase-animation.html">
+            <img src="Pictures/Animation/patrik-potancok-0247.jpg" alt="Low-poly car chase through a city">
+            <span class="project-meta">Blender animation</span>
+            <h2>Car Chase Animation</h2>
+            <p>A low-poly city chase sequence created in Blender with stylized environments and motion.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="tab-panel" id="contact" role="tabpanel" aria-labelledby="tab-contact" hidden>
+        <div class="section-grid contact-grid">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h1>Let&apos;s talk about games, tools, and interactive work.</h1>
+            <p class="lead">
+              I am based in Slovakia and open to game development, technical art, VR, and interactive media opportunities.
+            </p>
+          </div>
+
+          <div class="contact-list" aria-label="Contact links">
+            <a href="mailto:pa3ko2021@gmail.com">
+              <span>Email</span>
+              <strong>pa3ko2021@gmail.com</strong>
+            </a>
+            <a href="https://www.linkedin.com/in/patrik-potan%C4%8Dok/" target="_blank" rel="noreferrer">
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/patrik-potančok</strong>
+            </a>
+            <a href="https://krecikminajj.artstation.com" target="_blank" rel="noreferrer">
+              <span>ArtStation</span>
+              <strong>krecikminajj.artstation.com</strong>
+            </a>
+            <a href="https://github.com/krecikminajjj" target="_blank" rel="noreferrer">
+              <span>GitHub</span>
+              <strong>github.com/krecikminajjj</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
