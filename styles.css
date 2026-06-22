@@ -414,6 +414,16 @@ p {
   margin-top: 22px;
 }
 
+.intro-actions {
+  margin-top: 28px;
+}
+
+.button-link.primary {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--surface);
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
